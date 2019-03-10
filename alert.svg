@@ -4,7 +4,7 @@
   <text x="40" y="40" id="textelement">You're safe against na&#239;ve attacks.</text>
   <script type="text/javascript">//<![CDATA[
     alert("ACE permitted from SVG!");
-    document.getElementById("textelement").innerText = "You're not safe against JS in SVG!";
+    document.getElementById("textelement").textContent = "You're not safe against JS in SVG!";
   //]]>
   </script>
 </svg>
